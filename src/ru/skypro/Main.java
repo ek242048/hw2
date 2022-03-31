@@ -49,7 +49,7 @@ public class Main {
         int days3 = (days1 + days2) / 2;
         System.out.println("если сбрасывать в день по 250г, то худеть" + days1 + "дней");
         System.out.println("если сбрасывать в день по 500г. то худеть" + days2 + "дней");
-        System.out.println("нужно в среднем" + days3 + "дней для похудения");
+        System.out.println("нужно в среднем - " + days3 + "дней для похудения");
 
 
         //Задача 5
