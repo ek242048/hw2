@@ -41,15 +41,16 @@ public class Main {
         System.out.println ("Вес завтрака" + breakfastInKilos + "кг");
 
         //Задача 4
-        int weightToLose = 7000;
-        int programme1 = 250;
+        short weightToLose = 7000;
+        short programme1 = 250;
+        short programme2 = 500;
         int days1 = weightToLose / programme1;
-        System.out.println("если сбрасывать в день по 250г, то худеть" + days1 + "дней");
-        int programme2 = 500;
         int days2 = weightToLose / programme2;
+        int days3 = (days1 + days2) / 2;
+        System.out.println("если сбрасывать в день по 250г, то худеть" + days1 + "дней");
         System.out.println("если сбрасывать в день по 500г. то худеть" + days2 + "дней");
-        int days2goal = (days1 + days2) / 2;
-        System.out.println("нужно в среднем дней для похудения" + days2goal);
+        System.out.println("нужно в среднем" + days3 + "дней для похудения");
+
 
         //Задача 5
         int M = 67_760;
